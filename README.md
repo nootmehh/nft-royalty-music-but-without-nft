@@ -23,3 +23,6 @@ Time: 5-6 hours
 
 Why Hard: Requires integration with complex copyright legal frameworks, highly accurate and fraud-resistant audio tracking technology across thousands of locations, and adoption on both market sides (artists and venue owners).
 
+Contract:
+Song-Registry: ST2PH03Q30HQ7BZT6QR54APJJC56BF59J18YXW3G8.song-registry
+Royalty-Manager: ST2PH03Q30HQ7BZT6QR54APJJC56BF59J18YXW3G8.royalty-manager

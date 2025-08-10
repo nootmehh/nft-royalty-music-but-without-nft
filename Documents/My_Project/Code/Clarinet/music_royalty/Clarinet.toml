@@ -1,0 +1,22 @@
+[project]
+name = "music_royalty"
+description = "A digital music royalty system on Stacks."
+authors = []
+telemetry = true
+cache_dir = "./.cache"
+
+# --- Deklarasi Kontrak Inti (Bagian yang Ditambahkan) ---
+
+[contracts.song-registry]
+path = "contracts/song-registry.clar"
+depends_on = []
+epoch = "2.4"
+
+[contracts.royalty_manager]
+path = "contracts/royalty_manager.clar"
+depends_on = []
+epoch = "2.4"
+
+[repl]
+costs_version = 2
+parser_version = 2

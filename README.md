@@ -1,23 +1,25 @@
-🎯 Masalah: Distribusi royalti hak tampil (performing rights) untuk musisi tidak transparan, lambat, dan tidak efisien, menyebabkan banyak pencipta lagu tidak menerima kompensasi yang adil atas karya mereka saat diputar di ruang publik.
+🎯 Problem: The distribution of performing rights royalties for musicians is non-transparent, slow, and inefficient, causing many song creators to not receive fair compensation when their works are played in public venues.
 
-💡 Solusi: Platform royalti digital berbasis blockchain yang mengotomatisasi pelacakan pemutaran musik dan distribusi pembayaran secara real-time menggunakan smart contract.
+💡 Solution: A blockchain-based digital royalty platform that automates music play tracking and real-time payment distribution using smart contracts.
 
 🔥 ADVANCED IMPLEMENTATION:
 
-├── register-creative-work(): Pendaftaran karya musik dan penetapan porsi kepemilikan hak (penulis lagu, komposer, label).
-├── issue-digital-license(): Penerbitan lisensi digital untuk ruang publik (kafe, hotel, toko) sebagai bukti pembayaran biaya royalti.
-├── track-music-playback(): Menggunakan teknologi audio recognition (seperti Shazam) pada perangkat di venue untuk mengidentifikasi dan mencatat setiap lagu yang diputar.
-├── aggregate-royalty-pool(): Mengumpulkan semua dana dari lisensi venue ke dalam satu pool yang dikelola oleh smart contract.
-├── execute-royalty-distribution(): Smart contract secara otomatis menghitung dan mendistribusikan dana dari pool ke dompet digital pemegang hak sesuai jumlah pemutaran.
-├── provide-realtime-dashboard(): Menyediakan dasbor transparan bagi artis untuk melihat di mana lagu mereka diputar, berapa kali, dan pendapatan yang dihasilkan.
-└── manage-rights-ownership(): Memfasilitasi transfer atau penjualan sebagian hak royalti sebagai aset digital (misalnya NFT), dengan pembayaran yang otomatis teralihkan ke pemilik baru.
+├── register-creative-work(): Register music works and set ownership shares (songwriters, composers, labels).
+├── issue-digital-license(): Issue digital licenses to public venues (cafes, hotels, shops) as proof of royalty fee payments.
+├── track-music-playback(): Use audio recognition technology (like Shazam) on devices at venues to identify and log every played song.
+├── aggregate-royalty-pool(): Collect all funds from venue licenses into a single pool managed by smart contracts.
+├── execute-royalty-distribution(): Smart contracts automatically calculate and distribute funds from the pool to digital wallets of rights holders according to play counts.
+├── provide-realtime-dashboard(): Provide a transparent dashboard for artists to see where and how often their songs are played and their generated income.
+└── manage-rights-ownership(): Facilitate transfer or sale of partial royalty rights as digital assets (e.g., NFTs), with automatic payment rerouting to the new owners.
+
 🎯 User Story:
-"Sebagai pencipta lagu, saya ingin sebuah sistem yang transparan di mana saya bisa melihat secara langsung kapan dan di mana lagu saya diputar, dan menerima royalti saya secara cepat dan adil tanpa potongan biaya yang tidak jelas."
+“As a songwriter, I want a transparent system where I can immediately see when and where my song is played, and receive my royalties quickly and fairly without unclear fee deductions.”
 
-Target User: Musisi, Pencipta Lagu, Produser/Label Rekaman, Lembaga Manajemen Kolektif (LMK), Pemilik Usaha (Kafe, Hotel, Retail).
+Target Users: Musicians, Songwriters, Producers/Record Labels, Collective Management Organizations (CMOs), Business Owners (Cafes, Hotels, Retail).
 
-Complexity: 🔴 (Hard - integrasi legal & teknis)
+Complexity: 🔴 (Hard - legal & technical integration)
 
-Time: 5-6 jam
+Time: 5-6 hours
 
-Why Hard: Membutuhkan integrasi dengan kerangka hukum hak cipta yang kompleks, teknologi pelacakan audio yang akurat dan anti-penipuan di ribuan lokasi, serta adopsi dari dua sisi pasar (seniman dan pemilik usaha).
+Why Hard: Requires integration with complex copyright legal frameworks, highly accurate and fraud-resistant audio tracking technology across thousands of locations, and adoption on both market sides (artists and venue owners).
+
